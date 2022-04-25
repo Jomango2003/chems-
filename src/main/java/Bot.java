@@ -9,11 +9,10 @@ public class Bot {
     public static void main(String args[])throws Exception{
 
 
-        JDA jda = JDABuilder.createDefault("ODE4Mzk1NzUwODgyMzQ0OTgy.YEXccA.lKVWUiZ9lIzOx8ovsBPYtG-eyU0").build();
+        JDA jda = JDABuilder.createDefault("ODE4Mzk1NzUwODgyMzQ0OTgy.YEXccA.uTE_YNkTFy5wf5BhSSYrrG1VPDk").build();
         jda.addEventListener(new HelloEvent());
         jda.addEventListener(new CategoryCreate());
         jda.addEventListener(new Calculate());
         jda.addEventListener(new InviteCommand());
-        jda.addEventListener(new PlayMusic());
     }
 }

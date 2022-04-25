@@ -75,7 +75,6 @@ public class HelloEvent extends ListenerAdapter {
             }
         }
 
-
         if (meanMode) {
             if (event.getAuthor().getName().equalsIgnoreCase("michaelko")) {
                 speak(mikeTalk.get((int) (Math.random() * stories.size())));
@@ -179,8 +178,6 @@ public class HelloEvent extends ListenerAdapter {
                     case "ew":
                         speak("no ur ew");
                         break;
-                    case "kimochi":
-                    case "yamete":
                     case "anime":
                         speak("⣿⣿⣷⡁⢆⠈⠕⢕⢂⢕⢂⢕⢂⢔⢂⢕⢄⠂⣂⠂⠆⢂⢕⢂⢕⢂⢕⢂⢕⢂\n" +
                                 "⣿⣿⣿⡷⠊⡢⡹⣦⡑⢂⢕⢂⢕⢂⢕⢂⠕⠔⠌⠝⠛⠶⠶⢶⣦⣄⢂⢕⢂⢕\n" +
@@ -196,16 +193,6 @@ public class HelloEvent extends ListenerAdapter {
                                 "⠄⠁⠕⢝⡢⠈⠻⣿⣿⣿⣿⣿⣿⣿⣷⣕⣑⣑⣑⣵⣿⣿⣿⡿⢋⢔⢕⣿⠠⠈\n" +
                                 "⠨⡂⡀⢑⢕⡅⠂⠄⠉⠛⠻⠿⢿⣿⣿⣿⣿⣿⣿⣿⣿⡿⢋⢔⢕⢕⣿⣿⠠⠈\n" +
                                 "⠄⠪⣂⠁⢕⠆⠄⠂⠄⠁⡀⠂⡀⠄⢈⠉⢍⢛⢛⢛⢋⢔⢕⢕⢕⣽⣿⣿⠠⠈");
-                        break;
-                    case "die":
-                        speak("lol xp");
-                        break;
-                    case "nigga":
-                    case "niglet":
-                    case "nigger":
-                    case "negro":
-                    case "niggaa":
-                        speak("REeeeeeee DONT SAY THAT REEEEE");
                         break;
                     case "sorry":
                         speak("You better be! >:(");
@@ -224,7 +211,7 @@ public class HelloEvent extends ListenerAdapter {
                         break;
                     case "mike":
                     case "michael":
-                        speak("did someone call my neighborhood pedophile?");
+                        speak("did someone call my neighborhood spiderman?");
                         break;
                     case "sleep":
                         speak("yeaa thats right, go to sleep u fish");
@@ -255,17 +242,11 @@ public class HelloEvent extends ListenerAdapter {
                     case "val":
                         speak("SOMEONE SAID VAL...");
                         break;
-                    case "loli":
-                        speak("I LOVE LOLIS TOO, ESPECIALLY NIKKI");
-                        break;
                     case "no":
                         speak("Hi " + name + ", I LOVE NIKKI CHAN");
                         break;
                     case "sad":
                         speak("sucks to suck");
-                        break;
-                    case "depressed":
-                        speak("must suck to suck!");
                         break;
                     case "hate":
                         speak("LMAO and I hate you!");
@@ -303,22 +284,6 @@ public class HelloEvent extends ListenerAdapter {
                         "was responsible for such a RAD TRICK to be pulled off. The motorcyclist then sped " +
                         "away. Then the other turtles loved him, as they shouted out with glee, Rudolph the" +
                         " big-shelled turtle, you'll go down in history!\n" +
-                        "\n");
-                stories.add("A couple of years ago, one night, " +
-                        "I was about to propose to my girlfriend when my" +
-                        " roommate Joseph barged into the room out of nowhere," +
-                        " tripped and fell over, breaking a glass table with his face." +
-                        "Totally ruined the mood. Now, I didn't know Joseph THAT well, " +
-                        "don't even remember where he was from, but let' just say I put" +
-                        " my plans on hold to help him through his injuries. Joseph had " +
-                        "gotten big glass shard in his eye, making him completely blind " +
-                        "in that eye. He was walking around with one of those cotton pads " +
-                        "on his eye for a couple of months. Then suddenly, he disappeared," +
-                        " along with my girlfriend Apparently they'd bonded during the time " +
-                        "after his injuries, and eloped together , left me behind without as" +
-                        " much as a note. I tried to track them down, but never could. In conclusion," +
-                        " if it hadn't been for cotton eye Joe, I'd have been married a long time ago." +
-                        " Where did you come from, where did you go? Where did you come from, cotton eye Joe?\n" +
                         "\n");
                 stories.add("The year was 1999. A much younger trump was " +
                         "getting ready for bed when his mother entered the room. " +
@@ -414,99 +379,6 @@ public class HelloEvent extends ListenerAdapter {
                         " (_    ___    /~\"\n" +
                         "  (_)_)  (_)_)\n" +
                         "           __");
-             /*   animals.add("                                           .      //\n" +
-                        "                                       /) \\ |\\    //\n" +
-                        "  VK                             (\\\\|  || \\)u|   |F     /)\n" +
-                        "                                  \\```.FF  \\  \\  |J   .'/\n" +
-                        "                               __  `.  `|   \\  `-'J .'.'\n" +
-                        "        ______           __.--'  `-. \\_ J    >.   `'.'   .\n" +
-                        "    _.-'      \"\"`-------'           `-.`.`. / )>.  /.' .<'\n" +
-                        "  .'                                   `-._>--' )\\ `--''\n" +
-                        "  F .                                          ('.--'\"\n" +
-                        " (_/                                            '\\\n" +
-                        "  \\                                             'o`.\n" +
-                        "  |\\                                                `.\n" +
-                        "  J \\          |              /      |                \\\n" +
-                        "   L \\                       J       (             .  |\n" +
-                        "   J  \\      .               F        _.--'`._  /`. \\_)\n" +
-                        "    F  `.    |                       /        \"\"   \"'\n" +
-                        "    F   /\\   |_          ___|   `-_.'\n" +
-                        "   /   /  F  J `--.___.-'   F  - /\n" +
-                        "  /    F  |   L            J    /|\n" +
-                        " (_   F   |   L            F  .'||\n" +
-                        "  L  F    |   |           |  /J  |\n" +
-                        "  | J     `.  |           | J  | |              ____.---.__\n" +
-                        "  |_|______ \\  L          | F__|_|___.---------'\n" +
-                        "--'        `-`--`--.___.-'-'---");
-                animals.add("           .,;>>%%%%%>>;,.                                              \n" +
-                        "           .>%%%%%%%%%%%%%%%%%%%%>,.                                       \n" +
-                        "         .>%%%%%%%%%%%%%%%%%%>>,%%%%%%;,.                                  \n" +
-                        "       .>>>>%%%%%%%%%%%%%>>,%%%%%%%%%%%%,>>%%,.                            \n" +
-                        "     .>>%>>>>%%%%%%%%%>>,%%%%%%%%%%%%%%%%%,>>%%%%%,.                       \n" +
-                        "   .>>%%%%%>>%%%%>>,%%>>%%%%%%%%%%%%%%%%%%%%,>>%%%%%%%,                    \n" +
-                        "  .>>%%%%%%%%%%>>,%%%%%%>>%%%%%%%%%%%%%%%%%%,>>%%%%%%%%%%.                 \n" +
-                        " .>>%%%%%%%%%%>>,>>>>%%%%%%%%%%'..`%%%%%%%%,;>>%%%%%%%%%>%%.               \n" +
-                        ".>>%%%>>>%%%%%>,%%%%%%%%%%%%%%.%%%,`%%%%%%,;>>%%%%%%%%>>>%%%%.             \n" +
-                        ">>%%>%>>>%>%%%>,%%%%%>>%%%%%%%%%%%%%`%%%%%%,>%%%%%%%>>>>%%%%%%%.           \n" +
-                        ">>%>>>%%>>>%%%%>,%>>>%%%%%%%%%%%%%%%%`%%%%%%%%%%%%%%%%%%%%%%%%%%.          \n" +
-                        ">>%%%%%%%%%%%%%%,>%%%%%%%%%%%%%%%%%%%'%%%,>>%%%%%%%%%%%%%%%%%%%%%.         \n" +
-                        ">>%%%%%%%%%%%%%%%,>%%%>>>%%%%%%%%%%%%%%%,>>%%%%%%%%>>>>%%%%%%%%%%%.        \n" +
-                        ">>%%%%%%%%;%;%;%%;,%>>>>%%%%%%%%%%%%%%%,>>>%%%%%%>>;\";>>%%%%%%%%%%%%.      \n" +
-                        "`>%%%%%%%%%;%;;;%;%,>%%%%%%%%%>>%%%%%%%%,>>>%%%%%%%%%%%%%%%%%%%%%%%%%%.    \n" +
-                        " >>%%%%%%%%%,;;;;;%%>,%%%%%%%%>>>>%%%%%%%%,>>%%%%%%%%%%%%%%%%%%%%%%%%%%%.  \n" +
-                        " `>>%%%%%%%%%,%;;;;%%%>,%%%%%%%%>>>>%%%%%%%%,>%%%%%%'%%%%%%%%%%%%%%%%%%%>>.\n" +
-                        "  `>>%%%%%%%%%%>,;;%%%%%>>,%%%%%%%%>>%%%%%%';;;>%%%%%,`%%%%%%%%%%%%%%%>>%%>.\n" +
-                        "   >>>%%%%%%%%%%>> %%%%%%%%>>,%%%%>>>%%%%%';;;;;;>>,%%%,`%     `;>%%%%%%>>%%\n" +
-                        "   `>>%%%%%%%%%%>> %%%%%%%%%>>>>>>>>;;;;'.;;;;;>>%%'  `%%'          ;>%%%%%>\n" +
-                        "    >>%%%%%%%%%>>; %%%%%%%%>>;;;;;;''    ;;;;;>>%%%                   ;>%%%%\n" +
-                        "    `>>%%%%%%%>>>, %%%%%%%%%>>;;'        ;;;;>>%%%'                    ;>%%%\n" +
-                        "     >>%%%%%%>>>':.%%%%%%%%%%>>;        .;;;>>%%%%                    ;>%%%'\n" +
-                        "     `>>%%%%%>>> ::`%%%%%%%%%%>>;.      ;;;>>%%%%'                   ;>%%%' \n" +
-                        "      `>>%%%%>>> `:::`%%%%%%%%%%>;.     ;;>>%%%%%                   ;>%%'  \n" +
-                        "       `>>%%%%>>, `::::`%%%%%%%%%%>,   .;>>%%%%%'                   ;>%'   \n" +
-                        "        `>>%%%%>>, `:::::`%%%%%%%%%>>. ;;>%%%%%%                    ;>%,   \n" +
-                        "         `>>%%%%>>, :::::::`>>>%%%%>>> ;;>%%%%%'                     ;>%,  \n" +
-                        "          `>>%%%%>>,::::::,>>>>>>>>>>' ;;>%%%%%                       ;%%, \n" +
-                        "            >>%%%%>>,:::,%%>>>>>>>>'   ;>%%%%%.                        ;%% \n" +
-                        "             >>%%%%>>``%%%%%>>>>>'     `>%%%%%%.                           \n" +
-                        "             >>%%%%>> `@@a%%%%%%'     .%%%%%%%%%.                          \n" +
-                        "             `a@@a%@'    `%a@@'       `a@@a%a@@a'");
-                animals.add("                        A       ;\n" +
-                        "                |   ,--,-/ \\---,-/|  ,\n" +
-                        "               _|\\,'. /|      /|   `/|-.\n" +
-                        "           \\`.'    /|      ,            `;.\n" +
-                        "          ,'\\   A     A         A   A _ /| `.;\n" +
-                        "        ,/  _              A       _  / _   /|  ;\n" +
-                        "       /\\  / \\   ,  ,           A  /    /     `/|\n" +
-                        "      /_| | _ \\         ,     ,             ,/  \\\n" +
-                        "     // | |/ `.\\  ,-      ,       ,   ,/ ,/      \\/\n" +
-                        "     / @| |@  / /'   \\  \\      ,              >  /|    ,--.\n" +
-                        "    |\\_/   \\_/ /      |  |           ,  ,/        \\  ./' __:..\n" +
-                        "    |  __ __  |       |  | .--.  ,         >  >   |-'   /     `\n" +
-                        "  ,/| /  '  \\ |       |  |     \\      ,           |    /\n" +
-                        " /  |<--.__,->|       |  | .    `.        >  >    /   (\n" +
-                        "/_,' \\\\  ^  /  \\     /  /   `.    >--            /^\\   |\n" +
-                        "      \\\\___/    \\   /  /      \\__'     \\   \\   \\/   \\  |\n" +
-                        "       `.   |/          ,  ,                  /`\\    \\  )\n" +
-                        "         \\  '  |/    ,       V    \\          /        `-\\\n" +
-                        "          `|/  '  V      V           \\    \\.'            \\_\n" +
-                        "           '`-.       V       V        \\./'\\\n" +
-                        "               `|/-.      \\ /   \\ /,---`\\         kat\n" +
-                        "                /   `._____V_____V'\n" +
-                        "                           '     '");
-                animals.add("             (\\-.\n" +
-                        "             / _`> .---------.\n" +
-                        "     _)     / _)=  |'-------'|\n" +
-                        "    (      / _/    |O   O   o|\n" +
-                        "jgs  `-.__(___)_   | o O . o |\n" +
-                        "                   `---------'");
-
-               */ animals.add("      _          _          _          _          _\n" +
-                        "    >(')____,  >(')____,  >(')____,  >(')____,  >(') ___,\n" +
-                        "      (` =~~/    (` =~~/    (` =~~/    (` =~~/    (` =~~/\n" +
-                        "jgs~^~^`---'~^~^~^`---'~^~^~^`---'~^~^~^`---'~^~^~^`---'~^~^~");
-
-
             }
         }
     }
